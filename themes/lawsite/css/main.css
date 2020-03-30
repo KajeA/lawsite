@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+/* HEADER */
+
+.site-branding {
+    background-color: white;
+    border-bottom: 1px solid darkturquoise;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.site-title {
+    font-size: 3rem;
+    color: darkturquoise;
+    text-decoration: none;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.site-title a {
+    
+    text-decoration: none;
+    color: darkturquoise;
+}
+
+/* NAVIGATION BAR */
+
+.main-navigation {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.main-navigation a {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: rgb(21, 98, 129);
+}
+
+
+.entry-header h1 {
+    display: none;
+}
+
+#menu ul li a:active, #menu ul li.current_page_item a
+{
+color:#000;
+}
+
+/* ABout us page */
+
+#post-17, #post-15, #post-7 {
+    height: fit-content;
+    width: 70vw;
+    border: solid rgba(165, 200, 235, 0.733) 1px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 3rem 2rem 3rem;
+    margin-top: 3rem;
+}
+
+#post-17 a, #post-15 a, #post-7 a {
+    text-decoration: none; 
+}
+
+
+.wpcf7 {
+    text-align: center;
+    width: 40vw;
+    height: fit-content;
+    margin: auto;
+}
+
+.gm-style-pbc {
+    text-align: center;
+}
+
+.wp-block-columns {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    margin-left: 5rem;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.site-footer {
+    height: 5rem;
+    bottom: 0;
+    background-color: darkturquoise;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5rem;
+}
